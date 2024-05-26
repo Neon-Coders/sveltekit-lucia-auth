@@ -6,4 +6,6 @@
 	export let data: PageData;
 </script>
 
-<SignupForm data={data.form} />
+<main class="flex min-h-screen items-center justify-center">
+	<SignupForm data={data.form} />
+</main>

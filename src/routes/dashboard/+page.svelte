@@ -1,13 +1,8 @@
 <script lang="ts">
-	import * as Card from "$lib/components/ui/card/index.js";
-	import * as Avatar from "$lib/components/ui/avatar";
-	import { buttonVariants } from "$lib/components/ui/button/index.js";
-	import { getInitials } from "$lib/utils/get-initials";
-	import LogOut from "lucide-svelte/icons/log-out";
-
 	import type { PageData } from "./$types";
-	import Button from "$lib/components/ui/button/button.svelte";
 	import { UserButton } from "$lib/components/forms";
+	import Button from "$lib/components/ui/button/button.svelte";
+	import { ArrowLeft } from "svelte-radix";
 
 	export let data: PageData;
 	const { user } = data;
@@ -16,7 +11,9 @@
 <div class="flex-col md:flex">
 	<div class="border-b">
 		<div class="flex h-16 items-center px-4">
-			<h1 class="font-bold">Sveltekit & Lucia</h1>
+			<Button href="/" variant="outline"
+				><ArrowLeft class="h-4 w-4" /> <span class="ml-1">Go back</span></Button
+			>
 			<div class="ml-auto flex items-center space-x-4">
 				{#if !user}
 					<div>
@@ -29,8 +26,6 @@
 
 				{#if user}
 					<div class="flex w-fit flex-col gap-y-2">
-						<!-- <h2 class="font-semibold">User Button</h2> -->
-						<!-- <Button href="/account" variant="outline">Account</Button> -->
 						<UserButton {user} />
 					</div>
 				{/if}

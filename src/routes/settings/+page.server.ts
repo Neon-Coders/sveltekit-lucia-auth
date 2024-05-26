@@ -9,8 +9,8 @@ export const load = (async (event) => {
 	const user = await event.locals.user;
 
 	// Redirect unauthenticated users only for specific routes
-	if (!user && event.url.pathname !== "/" && event.url.pathname !== "/") {
-		return redirect(302, "/"); // Or a more appropriate route based on context
+	if (!user && event.url.pathname !== "/auth/login" && event.url.pathname !== "/auth/signup") {
+		return redirect(302, "/auth/login"); // Or a more appropriate route based on context
 	}
 
 	const loginForm = await superValidate(zod(loginSchema));

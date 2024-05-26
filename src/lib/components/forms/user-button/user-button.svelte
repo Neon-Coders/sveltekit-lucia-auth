@@ -32,7 +32,7 @@
 		<DropdownMenu.Separator />
 		<DropdownMenu.Group>
 			<DropdownMenu.Item>
-				<a href="/auth/account">Profile</a>
+				<a href="/settings/account">Profile</a>
 				<DropdownMenu.Shortcut>⇧⌘P</DropdownMenu.Shortcut>
 			</DropdownMenu.Item>
 			<DropdownMenu.Item>
@@ -40,14 +40,14 @@
 				<DropdownMenu.Shortcut>⌘B</DropdownMenu.Shortcut>
 			</DropdownMenu.Item>
 			<DropdownMenu.Item>
-				Settings
+				<a href="/settings">Settings</a>
 				<DropdownMenu.Shortcut>⌘S</DropdownMenu.Shortcut>
 			</DropdownMenu.Item>
 			<DropdownMenu.Item>New Team</DropdownMenu.Item>
 		</DropdownMenu.Group>
 		<DropdownMenu.Separator />
 		<DropdownMenu.Item>
-			<form method="post" action="/signout" use:enhance>
+			<form method="post" action="/auth/signout" use:enhance>
 				<button type="submit">
 					<span>Log out</span>
 				</button>

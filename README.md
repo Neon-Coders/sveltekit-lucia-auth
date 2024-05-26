@@ -2,6 +2,8 @@
 
 Minimal starter project with just the basic authentication pages and components that you can build on.
 
+![Banner](./static/banner.png)
+
 ## Features
 
 - Email - Password auth with verification codes + rate limiting

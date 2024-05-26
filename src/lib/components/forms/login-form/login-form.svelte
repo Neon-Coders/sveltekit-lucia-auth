@@ -4,7 +4,7 @@
 	import { Input } from "$lib/components/ui/input/index.js";
 
 	import Spinner from "$lib/components/icons/spinner.svelte";
-	import OauthButton from "../oauth-button/oauth-button.svelte";
+	import OauthButton from "../oauth/oauth.svelte";
 	import { loginSchema, type LoginSchema } from "$lib/validation/auth-zod-schema";
 
 	import { toast } from "svelte-sonner";

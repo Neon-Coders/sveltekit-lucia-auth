@@ -8,7 +8,7 @@
 	import Spinner from "$lib/components/icons/spinner.svelte";
 	import { Input } from "$lib/components/ui/input/index.js";
 	import { signupSchema, type SignupSchema } from "$lib/validation/auth-zod-schema";
-	import OauthButton from "../oauth-button/oauth-button.svelte";
+	import OauthButton from "../oauth/oauth.svelte";
 
 	export let data: SuperValidated<Infer<SignupSchema>>;
 
