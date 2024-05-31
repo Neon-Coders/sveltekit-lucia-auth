@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@libsql/client':
         specifier: ^0.6.0
-        version: 0.6.0
+        version: 0.6.1
       '@lucia-auth/adapter-drizzle':
         specifier: ^1.0.7
         version: 1.0.7(lucia@3.2.0)
@@ -28,10 +28,10 @@ importers:
         version: 16.4.5
       drizzle-orm:
         specifier: ^0.30.10
-        version: 0.30.10(@libsql/client@0.6.0)(react@18.2.0)
+        version: 0.30.10(@libsql/client@0.6.1)(react@18.2.0)
       formsnap:
         specifier: ^1.0.0
-        version: 1.0.0(svelte@4.2.12)(sveltekit-superforms@2.14.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.19.12))(esbuild@0.19.12)(svelte@4.2.12))
+        version: 1.0.0(svelte@4.2.12)(sveltekit-superforms@2.14.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.19.12))(esbuild@0.19.12)(svelte@4.2.12))
       lucia:
         specifier: ^3.2.0
         version: 3.2.0
@@ -55,7 +55,7 @@ importers:
         version: 0.3.24(svelte@4.2.12)
       sveltekit-superforms:
         specifier: ^2.14.0
-        version: 2.14.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.19.12))(esbuild@0.19.12)(svelte@4.2.12)
+        version: 2.14.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.19.12))(esbuild@0.19.12)(svelte@4.2.12)
       tailwind-merge:
         specifier: ^2.3.0
         version: 2.3.0
@@ -68,13 +68,13 @@ importers:
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^3.0.0
-        version: 3.2.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))
+        version: 3.2.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))
       '@sveltejs/kit':
         specifier: ^2.0.0
-        version: 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12))
+        version: 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13))
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.0
-        version: 3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12))
+        version: 3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13))
       '@types/eslint':
         specifier: ^8.56.0
         version: 8.56.7
@@ -122,7 +122,7 @@ importers:
         version: 3.6.9(postcss-load-config@5.0.3(jiti@1.21.0)(postcss@8.4.38))(postcss@8.4.38)(svelte@4.2.12)
       sveltekit-rate-limiter:
         specifier: ^0.5.1
-        version: 0.5.1(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))
+        version: 0.5.1(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))
       tailwindcss:
         specifier: ^3.3.6
         version: 3.4.3
@@ -134,7 +134,7 @@ importers:
         version: 5.4.4
       vite:
         specifier: ^5.0.3
-        version: 5.2.8(@types/node@20.12.12)
+        version: 5.2.8(@types/node@20.12.13)
 
 packages:
 
@@ -665,11 +665,11 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@libsql/client@0.6.0':
-    resolution: {integrity: sha512-qhQzTG/y2IEVbL3+9PULDvlQFWJ/RnjFXECr/Nc3nRngGiiMysDaOV5VUzYk7DulUX98EA4wi+z3FspKrUplUA==}
+  '@libsql/client@0.6.1':
+    resolution: {integrity: sha512-j32pZMzsuKJ8bWi0rtlszrexXV7mXSxoSA/2C6DfIL7kelI7SHsFgscrQD3wHBJVguitwMklWBe2EuMMRW0img==}
 
-  '@libsql/core@0.6.0':
-    resolution: {integrity: sha512-affAB8vSqQwqI9NBDJ5uJCVaHoOAS2pOpbv1kWConh1SBbmJBnHHd4KG73RAJ2sgd2+NbT9WA+XJBqxgp28YSw==}
+  '@libsql/core@0.6.1':
+    resolution: {integrity: sha512-xVV7w4iQcWgkhvmcJ6RZQdImlNvJGIW4Tlx1KJVWh6+l1sdAAz8hNXEXO04rYGAg6oeIXZF1j1E/AW1mwomO1g==}
 
   '@libsql/darwin-arm64@0.3.18':
     resolution: {integrity: sha512-Zt49dt+cwhPCkuoWgvjbQd4ckNfCJR5xzIAyhgHl3CBZqZaEuaXTOGKLNQT7bnFRPuQcdLt5PBT1cenKu2N6pA==}
@@ -1072,8 +1072,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@20.12.12':
-    resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
+  '@types/node@20.12.13':
+    resolution: {integrity: sha512-gBGeanV41c1L171rR7wjbMiEpEI/l5XFQdLLfhr/REwpgDy/4U8y89+i8kRiLzDyZdOkXh+cRaTetUnCYutoXA==}
 
   '@types/pug@2.0.10':
     resolution: {integrity: sha512-Sk/uYFOBAB7mb74XcpizmH0KOR2Pv3D2Hmrh1Dmy5BmK3MpdSa5kqZcg6EKBdklU0bFXX9gCfzvpnyUehrPIuA==}
@@ -1739,6 +1739,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   glob@8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
@@ -1803,6 +1804,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
@@ -2361,10 +2363,12 @@ packages:
 
   rimraf@2.7.1:
     resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rollup@4.14.1:
@@ -3111,9 +3115,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@libsql/client@0.6.0':
+  '@libsql/client@0.6.1':
     dependencies:
-      '@libsql/core': 0.6.0
+      '@libsql/core': 0.6.1
       '@libsql/hrana-client': 0.6.0
       js-base64: 3.7.7
       libsql: 0.3.18
@@ -3121,7 +3125,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@libsql/core@0.6.0':
+  '@libsql/core@0.6.1':
     dependencies:
       js-base64: 3.7.7
 
@@ -3406,14 +3410,14 @@ snapshots:
   '@sodaru/yup-to-json-schema@2.0.1':
     optional: true
 
-  '@sveltejs/adapter-auto@3.2.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))':
+  '@sveltejs/adapter-auto@3.2.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))':
     dependencies:
-      '@sveltejs/kit': 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12))
+      '@sveltejs/kit': 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13))
       import-meta-resolve: 4.0.0
 
-  '@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12))':
+  '@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12))
+      '@sveltejs/vite-plugin-svelte': 3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13))
       '@types/cookie': 0.6.0
       cookie: 0.6.0
       devalue: 4.3.2
@@ -3427,28 +3431,28 @@ snapshots:
       sirv: 2.0.4
       svelte: 4.2.12
       tiny-glob: 0.2.9
-      vite: 5.2.8(@types/node@20.12.12)
+      vite: 5.2.8(@types/node@20.12.13)
 
-  '@sveltejs/vite-plugin-svelte-inspector@2.0.0(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12))':
+  '@sveltejs/vite-plugin-svelte-inspector@2.0.0(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12))
+      '@sveltejs/vite-plugin-svelte': 3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13))
       debug: 4.3.4
       svelte: 4.2.12
-      vite: 5.2.8(@types/node@20.12.12)
+      vite: 5.2.8(@types/node@20.12.13)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12))':
+  '@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 2.0.0(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12))
+      '@sveltejs/vite-plugin-svelte-inspector': 2.0.0(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13))
       debug: 4.3.4
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.9
       svelte: 4.2.12
       svelte-hmr: 0.15.3(svelte@4.2.12)
-      vite: 5.2.8(@types/node@20.12.12)
-      vitefu: 0.2.5(vite@5.2.8(@types/node@20.12.12))
+      vite: 5.2.8(@types/node@20.12.13)
+      vitefu: 0.2.5(vite@5.2.8(@types/node@20.12.13))
     transitivePeerDependencies:
       - supports-color
 
@@ -3472,7 +3476,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@20.12.12':
+  '@types/node@20.12.13':
     dependencies:
       undici-types: 5.26.5
 
@@ -3485,7 +3489,7 @@ snapshots:
 
   '@types/ws@8.5.10':
     dependencies:
-      '@types/node': 20.12.12
+      '@types/node': 20.12.13
 
   '@typescript-eslint/eslint-plugin@7.6.0(@typescript-eslint/parser@7.6.0(eslint@8.57.0)(typescript@5.4.4))(eslint@8.57.0)(typescript@5.4.4)':
     dependencies:
@@ -3851,9 +3855,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.30.10(@libsql/client@0.6.0)(react@18.2.0):
+  drizzle-orm@0.30.10(@libsql/client@0.6.1)(react@18.2.0):
     optionalDependencies:
-      '@libsql/client': 0.6.0
+      '@libsql/client': 0.6.1
       react: 18.2.0
 
   eastasianwidth@0.2.0: {}
@@ -4174,11 +4178,11 @@ snapshots:
     dependencies:
       fetch-blob: 3.2.0
 
-  formsnap@1.0.0(svelte@4.2.12)(sveltekit-superforms@2.14.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.19.12))(esbuild@0.19.12)(svelte@4.2.12)):
+  formsnap@1.0.0(svelte@4.2.12)(sveltekit-superforms@2.14.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.19.12))(esbuild@0.19.12)(svelte@4.2.12)):
     dependencies:
       nanoid: 5.0.7
       svelte: 4.2.12
-      sveltekit-superforms: 2.14.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.19.12))(esbuild@0.19.12)(svelte@4.2.12)
+      sveltekit-superforms: 2.14.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.19.12))(esbuild@0.19.12)(svelte@4.2.12)
 
   fraction.js@4.3.7: {}
 
@@ -4955,14 +4959,14 @@ snapshots:
       magic-string: 0.30.9
       periscopic: 3.1.0
 
-  sveltekit-rate-limiter@0.5.1(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12))):
+  sveltekit-rate-limiter@0.5.1(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13))):
     dependencies:
       '@isaacs/ttlcache': 1.4.1
-      '@sveltejs/kit': 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12))
+      '@sveltejs/kit': 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13))
 
-  sveltekit-superforms@2.14.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.19.12))(esbuild@0.19.12)(svelte@4.2.12):
+  sveltekit-superforms@2.14.0(@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(@types/json-schema@7.0.15)(esbuild-runner@2.2.2(esbuild@0.19.12))(esbuild@0.19.12)(svelte@4.2.12):
     dependencies:
-      '@sveltejs/kit': 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.12))
+      '@sveltejs/kit': 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13)))(svelte@4.2.12)(vite@5.2.8(@types/node@20.12.13))
       devalue: 5.0.0
       just-clone: 6.2.0
       memoize-weak: 1.0.2
@@ -5106,18 +5110,18 @@ snapshots:
   validator@13.12.0:
     optional: true
 
-  vite@5.2.8(@types/node@20.12.12):
+  vite@5.2.8(@types/node@20.12.13):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.14.1
     optionalDependencies:
-      '@types/node': 20.12.12
+      '@types/node': 20.12.13
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.2.8(@types/node@20.12.12)):
+  vitefu@0.2.5(vite@5.2.8(@types/node@20.12.13)):
     optionalDependencies:
-      vite: 5.2.8(@types/node@20.12.12)
+      vite: 5.2.8(@types/node@20.12.13)
 
   web-streams-polyfill@3.3.3: {}
 
